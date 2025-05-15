@@ -1,4 +1,31 @@
-body {
-    margin: center;
-    overflow: hidden;
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .container, .content, .box, .card {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  h1, p {
+    text-align: center;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
